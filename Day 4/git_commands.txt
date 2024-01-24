@@ -37,3 +37,8 @@ Set username and email
 
 8. git remote remove origin
     => removes the remote push ssh link
+
+9. To add changes on github
+    => git add .
+    => git commit -m "changes"
+    => git push
