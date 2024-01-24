@@ -10,7 +10,30 @@ Repository => It is nothing but git project folder
 => One is the local repo and other is the remote repo
 
 #Git commands
+Set username and email
+1. git config --global user.name "username"
+2. git congig --global user.email "email"
+
 1. git init
     => initializes a repo in local
 
-2. 
+2. git add .
+    => Adds all the changes to the git
+
+3. git commit -m "commit message"
+    => commits all the changes
+
+4. git branch -M "main"
+    => change branch to main
+
+5. git remote add origin "ssh link"
+    => add ssh link from remote to connect the local
+
+6. git remote -v
+    => check if ssh link has been initiated
+
+7. git push -u origin main
+    => pushes the folders from local to remote
+
+8. git remote remove origin
+    => removes the remote push ssh link
